@@ -1,3 +1,4 @@
 /Typescript/node_modules
-
-Typescript/.env
+/anchor/spl-token/target
+/anchor/spl-token/node_modules
+/Typescript/.env
