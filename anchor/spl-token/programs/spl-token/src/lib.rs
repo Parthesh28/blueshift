@@ -2,6 +2,8 @@ use anchor_lang::prelude::*;
 use anchor_spl::token::{Mint, Token, TokenAccount};
 use anchor_spl::associated_token::AssociatedToken as AssociatedTokenProgram;
 
+mod instructions;
+
 declare_id!("CxrCoG94FMAWjWfd9ELrZKDs8KFKveKLRxDLK7qn9JEz");
 
 #[program]
@@ -30,7 +32,7 @@ pub struct CreateMint<'info> {
 }
 
 
-#[derive(Accounts)]
+    #[derive(Accounts)]
 pub struct CreateToken<'info> {
     #[account(mut)]
     pub signer: Signer<'info>,
