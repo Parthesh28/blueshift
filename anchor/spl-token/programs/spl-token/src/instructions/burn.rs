@@ -26,6 +26,7 @@ pub struct BurnTokens<'info> {
     #[account(
         mut,
         constraint = mint.key() == token_account.mint
+
     )]
     pub mint: Account<'info, Mint>,
 
