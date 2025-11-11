@@ -2,3 +2,7 @@
 /anchor/spl-token/target
 /anchor/spl-token/node_modules
 /Typescript/.env
+
+
+/anchor/blueshift_anchor_flash_loan/target
+/anchor/blueshift_anchor_flash_loan/node_modules
