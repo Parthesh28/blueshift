@@ -6,3 +6,5 @@
 /anchor/blueshift_anchor_flash_loan/node_modules
 /anchor/blueshift_anchor_vault/target
 /anchor/blueshift_anchor_vault/node_modules
+/anchor/blueshift_anchor_escrow/target
+/anchor/blueshift_anchor_escrow/node_modules
